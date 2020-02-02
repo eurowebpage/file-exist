@@ -1,0 +1,60 @@
+
+###############################################
+# exepmle 1
+###############################################
+<?php 
+// checking  file exists ou non
+$file_pointer = '/repertoire/fichier.php'; 
+  
+if (file_exists($file_pointer))  
+{ 
+    echo "The file $file_pointer exists"; 
+} 
+else 
+{ 
+    echo "The file $file_pointer does 
+                             not exists"; 
+} 
+  
+?> 
+
+###############################################
+# exepmle 2
+###############################################
+
+<?php 
+$file_pointer = '1.php'; 
+  if (file_exists($file_pointer))  
+{ 
+    echo auto_copyright(2020);  // 2010 - Current ; 
+} 
+else 
+{ 
+    echo "The file $file_pointer does 
+                             not exists"; 
+} 
+  
+?> 
+
+###############################################
+# exepmle 3
+###############################################
+<?php 
+  
+// checking whether file exists or not 
+$file_pointer = '1.php'; 
+  
+if (file_exists($file_pointer))  
+{ 
+    echo "<p> ton paragraphr </p> "; 
+} 
+else 
+{ 
+    echo "The file $file_pointer does 
+                             not exists"; 
+} 
+  
+?> 
+
+
+
